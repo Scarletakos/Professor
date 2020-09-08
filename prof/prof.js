@@ -28,16 +28,16 @@ const levelchangeid = '659816105623420929';
 const nosferatuid =  '364525165863895041';
 const levelchangereportid = '660084982366339072';
 const talkedRecently = new Set();
-client.login('NjIzNjk5MDg5MDgyNjc5MzA3.XYGRZw.KMcpfHmm_rz-v38i0MKXpi6GNyM')
+client.login('"Token Here"')
 .catch(console.error);
 
 client.on('disconnected', function() {
-    client.login('NjIzNjk5MDg5MDgyNjc5MzA3.XYGRZw.KMcpfHmm_rz-v38i0MKXpi6GNyM')
+    client.login('"Token Here"')
 	.catch(console.error);
 });
 
 
-client.login('NjIzNjk5MDg5MDgyNjc5MzA3.XYGRZw.KMcpfHmm_rz-v38i0MKXpi6GNyM');
+client.login('"Token Here");
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
