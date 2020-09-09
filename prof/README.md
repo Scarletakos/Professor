@@ -1,3 +1,3 @@
 # The professor
 
-Το υπερτατο μποτακι.
+Bot for basic functions on a certain discord server.
